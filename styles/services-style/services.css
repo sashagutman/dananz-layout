@@ -1,0 +1,40 @@
+.hero-description{
+    max-width: 500px;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.hero-img img{
+    width: 100%;
+}
+
+.achievement-list {
+    display: grid;
+    grid-template-columns: 750px 330px;
+    justify-content: space-between;
+    gap: 40px; 
+}
+
+.item-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.item-content h4{
+    margin-bottom: 30px;
+}
+
+.item-content p{
+    color: rgb(123, 123, 123);
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+
+@media (max-width: 1124px) {
+    .achievement-list {
+        grid-template-columns: repeat(auto-fit, minmax(430px, auto));
+    }
+} 

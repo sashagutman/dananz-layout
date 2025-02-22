@@ -1,0 +1,53 @@
+.achievement-section{
+    padding: clamp(1.25rem, 0.476rem + 3.26vw, 3.125rem) 0;
+}
+
+.achievement-title{
+    max-width: 738px;
+    margin-bottom:clamp(2.25rem, 1.734rem + 2.17vw, 3.5rem);
+}
+
+.achievement-body{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.stats-box {
+    background-color: rgba(44, 56, 120);
+    color: white;
+    padding: clamp(1.25rem, 0.734rem + 2.17vw, 2.5rem) 20px;
+    display: flex;
+    gap: 10px;
+    max-width: 252px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.stat {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.stat-text{
+    font-size: clamp(0.813rem, 0.71rem + 0.36vw, 1rem);
+}
+
+.stat-number {
+    font-size: clamp(1.75rem, 1.165rem + 1.95vw, 2.75rem);
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+
+@media (max-width: 900px) {
+    .achievement-body{
+        flex-direction: column;
+    }
+
+    .stats-box{
+        max-width: 100%;
+        flex-direction: initial;
+    }
+}
