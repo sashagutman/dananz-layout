@@ -26,7 +26,7 @@ teamDesigner.forEach(designer => {
     listItem.innerHTML = `
         <a href="#">
             <div class="designer-img">
-                <img data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000"  src="${designer.image}" alt="${designer.name}">
+                <img src="${designer.image}" alt="${designer.name}">
             </div>
             <div class="designer-info">
                 <h4>${designer.name}</h4>
