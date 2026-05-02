@@ -22,14 +22,11 @@ const designerList = document.querySelector('#designerList');
 teamDesigner.forEach(designer => {
     const listItem = document.createElement('li');
     listItem.classList.add('designer-item');
-    listItem.setAttribute('data-aos', 'fade-up');
-    listItem.setAttribute('data-aos-delay', '300');
-    listItem.setAttribute('data-aos-duration', '1000');
 
     listItem.innerHTML = `
         <a href="#">
             <div class="designer-img">
-                <img src="${designer.image}" alt="${designer.name}">
+                <img data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000"  src="${designer.image}" alt="${designer.name}">
             </div>
             <div class="designer-info">
                 <h4>${designer.name}</h4>

@@ -9,6 +9,7 @@
 .designer-item{
     background-color: #2C3878;
     position: relative;
+    overflow: hidden;
 }
 
 .designer-img{
