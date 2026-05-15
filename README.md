@@ -1,7 +1,8 @@
 # Dananz Layout
 
-A modern responsive website layout built with HTML, CSS, and JavaScript.
-This project focuses on clean UI, smooth animations, and structured layout design.
+A modern multi-page responsive website layout built with HTML, CSS, and JavaScript.
+
+This project focuses on clean UI implementation, responsive design, semantic HTML structure, smooth animations, and well-organized CSS. It was created as part of my frontend portfolio to demonstrate layout development, attention to detail, and the ability to build a complete business-style website.
 
 ---
 
@@ -13,55 +14,77 @@ This project focuses on clean UI, smooth animations, and structured layout desig
 
 ## 🛠️ Technologies Used
 
-* HTML5
-* CSS3 (Flexbox, Grid)
-* JavaScript (Vanilla JS)
-* AOS (Animate On Scroll)
+- HTML5
+- CSS3
+- Flexbox
+- CSS Grid
+- JavaScript (Vanilla JS)
+- AOS (Animate On Scroll)
+- GitHub Pages
 
 ---
 
 ## ✨ Features
 
-* Responsive design (mobile, tablet, desktop)
-* Smooth scroll animations using AOS
-* Clean and modern UI layout
-* Structured and maintainable CSS
-* Semantic HTML structure
+- Multi-page responsive website
+- Clean and modern UI design
+- Responsive layout for mobile, tablet, and desktop
+- Smooth scroll animations using AOS
+- Semantic HTML structure
+- Structured and maintainable CSS
+- Reusable sections and components
+- Navigation between pages
+- Cross-browser friendly layout
+- Organized project files and assets
+
+---
+
+## 📄 Pages
+
+- Home page
+- About Us page
+- Services page
+- Portfolio page
+- Minimalist page
+- Teams page
+- Contacts page
 
 ---
 
 ## 📁 Project Structure
 
-```
+```bash
 /css
-/js
+/javascript
 /img
 index.html
+about.html
+services.html
+portfolio.html
+minimalist.html
 teams.html
 contacts.html
 ```
 
----
-
-## 📦 Installation
-
+📦 Installation
 Clone the repository:
-
-```bash
 git clone https://github.com/sashagutman/dananz-layout.git
-```
+Open index.html in your browser.
 
-Open `index.html` in your browser.
+🎯 Purpose
+This project was created as part of my frontend portfolio to demonstrate:
+HTML/CSS layout skills
+Responsive web design
+Pixel-perfect approach
+Clean UI implementation
+Working with animations
+Creating structured multi-page websites
+Basic JavaScript interactions
 
----
+📌 Status
+Completed and deployed.
 
-## 🎯 Purpose
-
-This project was created as part of my frontend portfolio to demonstrate layout skills, responsive design, and UI development.
-
----
-
-## 📌 Notes
-
-* This is a static project (no backend)
-* Designed with focus on UX and visual clarity
+👤 Author
+Alex / Sasha Gutman
+GitHub: https://github.com/sashagutman
+Portfolio: https://sashagutman.github.io/portfolio/
